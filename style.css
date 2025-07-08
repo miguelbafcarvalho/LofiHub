@@ -1,0 +1,35 @@
+
+        body{
+            min-height: 100vh;
+            min-width: auto;
+            margin: 0;
+            padding: 0;
+           background-image: url('thumbs/background.png');
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+            text-align: center;
+        }
+        .zoom-thumb {
+            width: 315px;
+            height: auto;
+            transition: transform 0.3s ease;
+        } 
+        .zoom-thumb:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            color: blanchedalmond;
+            position: fixed;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.589);
+            width: 100%;
+            height: 50px;
+        }
+        @media (max-width: 768px) {
+            body {background-image: url('thumbs/backgroundmbl.png');
+            }
+
+        }
+  
