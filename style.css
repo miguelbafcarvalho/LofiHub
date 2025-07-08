@@ -35,18 +35,8 @@ footer {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 50px;
-  line-height: 50px;
+  line-height: 50 px;
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
-  body {
-    background-image: url('thumbs/backgroundmbl.png');
-  }
 
-  footer {
-    font-size: 0.8rem;
-    height: 40px;
-    line-height: 40px;
-  }
-}
