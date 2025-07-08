@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LofiHub</title>
+    <style>
+        body{
+            min-height: 100vh;
+            min-width: auto;
+            margin: 0;
+            padding: 0;
+           background-image: url('thumbs/background.png');
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+            text-align: center;
+        }
+        .zoom-thumb {
+            width: 315px;
+            height: auto;
+            transition: transform 0.3s ease;
+        } 
+        .zoom-thumb:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            color: blanchedalmond;
+            position: fixed;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.589);
+            width: 100%;
+            height: 50px;
+        }
+    </style>
+    <link rel="icon" href="thumbs/icon.png">
+</head>
+<body>
+    <a href="index.html"><img src="thumbs/lofihub.png" alt=""></a><br><br>
+    <a href="japan.html"><img src="thumbs/japan.jpg" class="zoom-thumb" alt=""></a>
+    <a href="anime.html"><img src="thumbs/anime.jpg" class="zoom-thumb" alt=""></a><br>
+    <a href="coffee.html"><img src="thumbs/coffee.jpg" class="zoom-thumb" alt=""></a>
+    <a href="work.html"><img src="thumbs/work.jpg" class="zoom-thumb" alt=""></a>
+
+    <!--aqui eu criei uma classe, usando o . e depois escrevendo o nome dela, e dei as propriedades a ela e tal, abaixo tem o psudo, que é o hover, ele é uma condição especial, nesse caso passar o mouse por cima, assim modificando a classe-->
+
+</body>
+<footer>
+    <p>&copy; LofiHub</p>
+</footer>
+</html>
